@@ -14,6 +14,7 @@ the best methodology for publishing it to the domain: bravegrumpy.com
 ## Change-Log
 ### 2022
 #### November 23<sup>rd</sup>
+- [x] Deleted template files that were used in flask.
 - [ ] Create a framework for Project 6
 - [x] Deleted all python files
 #### November 22<sup>nd</sup>
