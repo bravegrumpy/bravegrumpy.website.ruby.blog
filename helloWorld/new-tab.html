@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
     <head>
         <meta charset="UTF-8">
         <title>New Tab</title>
         <link rel="stylesheet" href="helloWorld_css.css"/>
-        <script src="new-tab.js"></script>
+        <link rel="icon" href="drawing.svg"/>
+        <script src="new-tab.js" async></script>
     </head>
     <body>
         <div id="go-home" >
@@ -14,23 +15,28 @@
         <div class="content-frame">
             <h2>This is a Canvas</h2>
             <div class="gameContainer">
-                <canvas class="gameCanvas" width="1000" height="1000"/>
+                <canvas class="gameCanvas" width="500" height="500"></canvas>
             </div>
         </div>
         <div class="formContainer">
             <h2>Form</h2>
             <p>Below is a form. I am working out how to extract information from it </p>
+            <h4>Validating JavaScript on page</h4>
+            <div id="JSValid"></div>
         </div>
         <form id="dataInput">
             <label for="name">Name</label>
             <input type="text" name="name" id="name"/>
 
             <label for="email">Email</label>
-            <input type="email" name = "email" id="email" />
+            <input type="email" name="email" id="email" />
 
             <button type="submit">Submit</button>
 
         </form>
+        <div id="output">
+            <h2>Output information: </h2>
+        </div>
     </body>
 	
 </html>
