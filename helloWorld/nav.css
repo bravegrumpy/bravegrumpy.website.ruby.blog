@@ -1,27 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Fredoka&family=Sacramento&display=swap');
-
-:root {
-    --main-bg:  #d2c8ff;
-    --second-bg: #d1dcff;
-    --emp-color: #146414;
-    --title-font: 'El Messiri', sans-serif;
-    --text-font:  'Fredoka', sans-serif;
-    --emp-font:  'Sacramento', cursive;
-}
-    body{
-        background-color: var(--main-bg);
-        font-family: var(--text-font);
-    }
-    .title{
-        width: fit-content;
-        background-color: var(--second-bg);
-        font-family: var(--title-font);
-        color: var(--emp-color);
-        text-align: center;
-        border-style: double;
-    }
-
-    /*
 ul {
     list-style-type: none;
     margin: 0;
@@ -58,7 +34,7 @@ li.dropdown {
     position: absolute;
     background-color: var(--main-bg);
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -87,5 +63,3 @@ li.dropdown {
 a.active {
     color: var(--main-bg)
 }
-
-     */

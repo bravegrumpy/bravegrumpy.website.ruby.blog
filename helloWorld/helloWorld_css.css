@@ -37,8 +37,9 @@
 				font-family: var(--text-font);
 
 			}
+
 			/***Code For Dropdown Menu***/
-			.dropdown-button {
+			.helloWorld-dropdown-button {
 				background-color: var(--second-bg);
 				color: var(--emp-color);
 				padding: 16px;
@@ -46,40 +47,40 @@
 				font-size: 2em;
 				border: solid 2px var(--emp-color);
 				cursor: pointer;
-				box-shadow: 8px 16px 32px 0px rgba(0, 0, 0, 0.2);
+				box-shadow: 8px 16px 32px 0 rgba(0, 0, 0, 0.2);
 				z-index: 1;
 			}
-			.dropdown {
+			.helloWorld-dropdown {
 				position: relative;
 				display: inline-block;
 			}
 
-			.dropdown-content {
+			.helloWorld-dropdown-content {
 				display: none;
 				position: absolute;
 				background-color: var(--main-bg);
 				min-width: 160px;
-				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 				z-index: 1;
 			}
 
-			.dropdown-content a {
+			.helloWorld-dropdown-content a {
 				color: var(--text-color);
 				padding: 12px 16px;
 				text-decoration: none;
 				display: block;
 			}
 
-			.dropdown-content a:hover {
+			.helloWorld-dropdown-content a:hover {
 				background-color: var(--second-bg);
 				color: var(--emp-color);
 			}
 
-			.dropdown:hover .dropdown-content {
+			.helloWorld-dropdown:hover .helloWorld-dropdown-content {
 				display: block;
 			}
 
-			.dropdown:hover .dropdown-button {
+			.helloWorld-dropdown:hover .helloWorld-dropdown-button {
 				background-color: var(--emp-color);
 				color: var(--second-bg);
 				border-color: var(--second-bg);
@@ -119,7 +120,7 @@
 			}
 
             #it{
-                font-size: 500px;
+                font-size: 50px;
                 text-align: center;
                 border-style: dashed;
                 font-family: var(--title-font);
