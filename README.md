@@ -13,9 +13,12 @@ the best methodology for publishing it to the domain: bravegrumpy.com
 
 ## Change-Log
 ### 2022
+#### December 11<sup>th</sup>
+-[x] Added in all Huetopia content.
+- [x] Successfully implemented responsive web design.
 #### December 10<sup>th</sup>
-- [ ] Creating reference withing index page, so that I can get to Huetopia.
-- [ ] Adding in Huetopia Folder
+- [x] Creating reference withing index page, so that I can get to Huetopia.
+- [x] Adding in Huetopia Folder
 #### November 23<sup>rd</sup>
 - [ ] TODO: Squash all the hello world projects into one web-page
     - [ ] can you combine multiple html files into one page?
