@@ -15,9 +15,9 @@ the best methodology for publishing it to the domain: bravegrumpy.com
 ### 2022
 #### November 23<sup>rd</sup>
 - [ ] TODO: Squash all of the hello world projects into one web-page
-  - [ ] can you combine multiple html files into one page?
+    - [ ] can you combine multiple html files into one page?
 - [ ] TODO: Make better logo
-- [ ] TODO: Add in new-feature branch to start making massive chagnes. 
+- [ ] TODO: Add in new-feature branch to start making massive chagnes.
 - [ ] TODO: figure out how to extract information with JS.
 - [x] figured out how to print error-logs in JS
 - [x] made edits to new-tab javascript.
