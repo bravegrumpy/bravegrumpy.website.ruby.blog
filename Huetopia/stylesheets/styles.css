@@ -1,0 +1,322 @@
+/*
+ * Copyright (c) 2022.  BraveGrumpy.
+ * Do not reproduce contents without express written permission from the author.
+ * You can get permission by cloning the repository https://github.com/robin-zollner/bravegrumpy.website.git, and creating a new branch.
+ * Otherwise, you can email seacrestskylar@gmail.com, or join the discord server, linked within each page.
+ * The purpose of this website, is to practice responsive web design, and to publish creative writing.
+ */
+
+/************************************/
+/* Making sizing include padding */
+* {
+    box-sizing: border-box;
+}
+/************************************/
+
+/************************************/
+/* Ensuring that rows are on a new line */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/************************************/
+
+/************************************/
+/* setting up columns to go left */
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
+/************************************/
+
+/************************************/
+/* Generic styling */
+html {
+    font-family: 'Lucida Sans', serif;
+}
+/************************************/
+
+/************************************/
+/* header */
+.header{
+    background-color: #d2c8ff;
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+}
+/************************************/
+
+/************************************/
+/* navbar */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #d1dcff;
+    color: #000000;
+    box-shadow: 0 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.navbar ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar ul li .dropdown-content{
+    display: none;
+    background-color: #a7bcff;
+    /*box-shadow: 0 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);*/
+}
+
+.navbar li:hover, .navbar .dropdown-button:hover, .navbar .dropdown:hover{
+    background-color: #a7bcff;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 2px 6px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #d1dcff;
+    color: #000000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/************************************/
+
+/************************************/
+/* menu */
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #d1dcff;
+    color: #000000;
+    box-shadow: 0 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.menu li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu li:hover {
+    background-color: #a7bcff;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+/************************************/
+
+/************************************/
+/* aside */
+.aside {
+    background-color: #a7bcff;
+    padding: 15px;
+    color: #000000;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.aside h2 {
+    text-align: center;
+}
+/************************************/
+
+/************************************/
+/* footer */
+.footer {
+    background-color: #beb4ff;
+    font-size: 0.8rem;
+    padding: 15px;
+    color: #000000;
+}
+/************************************/
+
+
+/************************************/
+/* For mobile phones: */
+[class*='col-'] {
+    width: 100%;
+}
+/************************************/
+
+/*************************************************/
+/* portrait mode */
+@media only screen and (orientation: portrait) {
+    [class*='col-'] {
+        width: 100%;
+        /* Uncomment the below line to see blocking guides*/
+        /*border: 1px solid orange;*/
+    }
+}
+
+
+
+/*************************************************/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* xs */
+
+    /* Uncomment the below line to see blocking guides*/
+    /*[class*="col-"] {
+        border: 1px solid rgb(255, 0, 0);
+    }*/
+    .col-xs-1 {width: 8.33%;}
+    .col-xs-2 {width: 16.66%;}
+    .col-xs-3 {width: 25%;}
+    .col-xs-4 {width: 33.33%;}
+    .col-xs-5 {width: 41.66%;}
+    .col-xs-6 {width: 50%;}
+    .col-xs-7 {width: 58.33%;}
+    .col-xs-8 {width: 64.66%;}
+    .col-xs-9 {width: 75%;}
+    .col-xs-10 {width: 83.33%;}
+    .col-xs-11 {width: 91.66%;}
+    .col-xs-12 {width: 100%;}
+}
+/*************************************************/
+
+/*************************************************/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* s */
+    /* For tablets */
+
+    /* Uncomment the below line to see blocking guides*/
+    /*
+    [class*='col-'] {
+        border: 1px solid rgb(0, 255, 0);
+    }*/
+
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 64.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+/*************************************************/
+
+/*************************************************/
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* m */
+    /* For desktop */
+
+    /* Uncomment the below line to see blocking guides*/
+    /*[class*='col-'] {
+        border: 1px solid rgb(0, 0, 255);
+    }*/
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 64.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+/*************************************************/
+
+/*************************************************/
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* l */
+
+    /* Uncomment the below line to see blocking guides*/
+    /*[class*="col-"] {
+        border: 1px solid rgb(0, 255, 255);
+    }*/
+    .col-l-1 {width: 8.33%;}
+    .col-l-2 {width: 16.66%;}
+    .col-l-3 {width: 25%;}
+    .col-l-4 {width: 33.33%;}
+    .col-l-5 {width: 41.66%;}
+    .col-l-6 {width: 50%;}
+    .col-l-7 {width: 58.33%;}
+    .col-l-8 {width: 64.66%;}
+    .col-l-9 {width: 75%;}
+    .col-l-10 {width: 83.33%;}
+    .col-l-11 {width: 91.66%;}
+    .col-l-12 {width: 100%;}
+}
+/*************************************************/
+
+/*************************************************/
+/* Extra large devices (large laptops and desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) {
+    /* xl */
+
+    /* Uncomment the below line to see blocking guides*/
+    /*
+    [class*="col-"] {
+        border: 1px solid rgb(255, 0, 255);
+    }
+    */
+
+    .col-xl-1 {width: 8.33%;}
+    .col-xl-2 {width: 16.66%;}
+    .col-xl-3 {width: 25%;}
+    .col-xl-4 {width: 33.33%;}
+    .col-xl-5 {width: 41.66%;}
+    .col-xl-6 {width: 50%;}
+    .col-xl-7 {width: 58.33%;}
+    .col-xl-8 {width: 64.66%;}
+    .col-xl-9 {width: 75%;}
+    .col-xl-10 {width: 83.33%;}
+    .col-xl-11 {width: 91.66%;}
+    .col-xl-12 {width: 100%;}
+}
+/*************************************************/
+
+/*************************************************/
+/* Extra-extra large devices (High res displays 1870 px and up) */
+@media only screen and (min-width: 1870px) {
+    /*xxl*/
+    /* Uncomment the below line to see blocking guides*/
+    /*[class*="col-"] {
+        border: 1px solid rgb(255, 255, 0);
+    }*/
+
+    /* comment out this code block if you want the navbar to display */
+    div.xl-only {
+        display: none;
+    }
+}
+/*************************************************/
+
+/*************************************************/
+/* Only displayed on extra large devices */
+@media only screen and (max-width: 1870px){
+    div.xl-only {
+        display: none;
+    }
+}
+/*************************************************/
