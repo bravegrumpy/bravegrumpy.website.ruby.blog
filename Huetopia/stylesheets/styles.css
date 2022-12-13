@@ -163,7 +163,7 @@ html {
     [class*='col-'] {
         width: 100%;
         /* Uncomment the below line to see blocking guides*/
-        border: 1px solid orange;
+        /*border: 1px solid orange;*/
     }
 }
 
@@ -175,9 +175,9 @@ html {
     /* xs */
 
     /* Uncomment the below line to see blocking guides*/
-    [class*="col-"] {
+    /*[class*="col-"] {
         border: 1px solid rgb(255, 0, 0);
-    }
+    }*/
     .col-xs-1 {width: 8.33%;}
     .col-xs-2 {width: 16.66%;}
     .col-xs-3 {width: 25%;}
@@ -200,10 +200,9 @@ html {
     /* For tablets */
 
     /* Uncomment the below line to see blocking guides*/
-    
-    [class*='col-'] {
+    /*[class*='col-'] {
         border: 1px solid rgb(0, 255, 0);
-    }
+    }*/
 
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -227,9 +226,9 @@ html {
     /* For desktop */
 
     /* Uncomment the below line to see blocking guides*/
-    [class*='col-'] {
+    /*[class*='col-'] {
         border: 1px solid rgb(0, 0, 255);
-    }
+    }*/
 
     .col-m-1 {width: 8.33%;}
     .col-m-2 {width: 16.66%;}
@@ -252,9 +251,9 @@ html {
     /* l */
 
     /* Uncomment the below line to see blocking guides*/
-    [class*="col-"] {
+    /*[class*="col-"] {
         border: 1px solid rgb(0, 255, 255);
-    }
+    }*/
     
     .col-l-1 {width: 8.33%;}
     .col-l-2 {width: 16.66%;}
@@ -277,9 +276,9 @@ html {
     /* xl */
 
     /* Uncomment the below line to see blocking guides*/
-    [class*="col-"] {
+    /*[class*="col-"] {
         border: 1px solid rgb(255, 0, 255);
-    }
+    }*/
 
     .col-xl-1 {width: 8.33%;}
     .col-xl-2 {width: 16.66%;}
@@ -301,9 +300,9 @@ html {
 @media only screen and (min-width: 1870px) {
     /*xxl*/
     /* Uncomment the below line to see blocking guides*/
-    [class*="col-"] {
+    /*[class*="col-"] {
         border: 1px solid rgb(255, 255, 0);
-    }
+    }*/
 
     /* comment out this code block if you want the navbar to display */
     div.xl-only {
