@@ -8,12 +8,7 @@
 
 /************************************/
 /* Including Fonts also used in the rest of BraveGrumpy */
-@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Fredoka&family=Sacramento&display=swap');
-:root {
-    --title-font: 'El Messiri', sans-serif;
-    --text-font:  'Fredoka', sans-serif;
-    --emp-font:  'Sacramento', cursive;
-}
+
 /************************************/
 
 /************************************/
@@ -42,11 +37,9 @@
 
 /************************************/
 /* Generic styling */
-/* Uncomment line 48 and comment line 47 to use W3Schools font decision */
-    html {
-        /* font-family: var(--text-font), 'Lucida Sans', serif;
-        font-family: 'Lucida Sans', sans-serif;
-    }
+html {
+    font-family: 'Lucida Sans', sans-serif;
+}
 /************************************/
 
 /************************************/
