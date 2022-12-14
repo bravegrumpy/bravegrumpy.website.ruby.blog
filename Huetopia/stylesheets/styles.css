@@ -44,8 +44,8 @@
 /* Generic styling */
 /* Uncomment line 48 and comment line 47 to use W3Schools font decision */
     html {
-        font-family: var(--text-font), 'Lucida Sans', serif;
-        /* font-family: 'Lucida Sans', sans-serif;*/
+        /* font-family: var(--text-font), 'Lucida Sans', serif;
+        font-family: 'Lucida Sans', sans-serif;
     }
 /************************************/
 
@@ -56,14 +56,6 @@
     color: #000000;
     text-align: center;
     padding: 15px;
-}
-
-.title {
-    font-family: var(--title-font);
-}
-
-.subtitle {
-    font-family: var(--emp-font);
 }
 /************************************/
 
@@ -117,11 +109,6 @@
 
 /************************************/
 /* menu */
-.menu {
-    font-family: var(--title-font);
-    font-weight: normal;
-}
-
 .menu ul {
     list-style-type: none;
     margin: 0;
@@ -137,7 +124,7 @@
 }
 .menu li a {
     text-decoration: none;
-    color: #146414;
+    color: #000000;
 }
 
 .menu li:hover{
@@ -151,12 +138,6 @@
 
 /************************************/
 /* center (body) */
-.center h2{
-    font-family: var(--title-font);
-}
-.center h3 {
-    font-family: var(--title-font);
-}
 
 /************************************/
 
