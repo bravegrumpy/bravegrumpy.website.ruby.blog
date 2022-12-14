@@ -49,6 +49,9 @@ html {
     color: #000000;
     text-align: center;
     padding: 15px;
+    top: 0;
+    position: relative;
+    height: 10rem;
 }
 /************************************/
 
@@ -109,12 +112,13 @@ html {
 }
 
 .menu li {
-    padding: 8px;
-    margin-bottom: 7px;
+    padding: 10px;
+    margin-bottom: 10px;
     background-color: #d1dcff;
     color: #000000;
     box-shadow: 0 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
+
 .menu li a {
     text-decoration: none;
     color: #000000;
@@ -141,7 +145,7 @@ html {
     padding: 15px;
     color: #000000;
     font-size: 14px;
-    border: 5px solid red;
+    border-radius: 10%;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
@@ -153,11 +157,18 @@ html {
 
 /************************************/
 /* footer */
+.spacer {
+    height: 10rem;
+}
 .footer {
     background-color: #beb4ff;
     font-size: 0.8rem;
     padding: 15px;
     color: #000000;
+    bottom: 0;
+    position: relative;
+    height: 15%;
+    width: 100%;
 }
 /************************************/
 
