@@ -1,0 +1,76 @@
+<!--
+  ~ Copyright (c) 2022.  BraveGrumpy.
+  ~ Do not reproduce contents without express written permission from the author.
+  ~ You can get permission by cloning the repository https://github.com/robin-zollner/bravegrumpy.website.git, and creating a new branch.
+  ~ Otherwise, you can email seacrestskylar@gmail.com, or join the discord server, linked within each page.
+  ~ The purpose of this website, is to practice responsive web design, and to publish creative writing.
+  -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>New Tab</title>
+        <link rel="stylesheet" href="helloWorld_css.css"/>
+        <link rel="stylesheet" href="nav.css">
+        <link rel="icon" href="drawing.svg"/>
+    </head>
+    <body>
+    <nav>
+        <ul>
+            <li><a href="../old_homepage/index.html">Home</a></li>
+            <li><a href="helloWorld_html.html">Hello World Main</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropdown-button">Project Links</a>
+                <div class="dropdown-content">
+                    <a href="Project-Link.html">Project 1</a>
+                    <a href="Project-Link2.html">Project 2</a>
+                    <a href="Project-Link3.html">Project 3</a>
+                    <a href="Project-Link4.html">Project 4</a>
+                    <a href="Project-Link5.html">Project 5</a>
+                    <a href="Project-Link6/Project-Link6.html">Project 6</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropdown-button">Misc. Files</a>
+                <div class="dropdown-content">
+                    <a href="Form-Redirect1.html">Form Redirect 1</a>
+                    <a href="Form-Redirect2.html">Form Redirect 2</a>
+                    <a href="new-tab.html" class="active">new tab</a>
+                    <a href="../old_homepage/err404.html">error404</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+        <div id="go-home" >
+            <h2>This is a link home</h2>
+            <p>Would you like to return to <a href="helloWorld_html.html" target="_blank">Hello World Code</a>?</p>
+        </div>
+        <div class="content-frame">
+            <h2>This is a Canvas</h2>
+            <div class="gameContainer">
+                <canvas class="gameCanvas" width="500" height="500"></canvas>
+            </div>
+        </div>
+        <div class="formContainer">
+            <h2>Form</h2>
+            <p>Below is a form. I am working out how to extract information from it </p>
+            <h4>Validating JavaScript on page</h4>
+            <div id="JSValid"></div>
+        </div>
+        <form id="dataInput">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name"/>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+
+            <button type="submit">Submit</button>
+
+        </form>
+        <div id="output">
+            <h2>Output information: </h2>
+        </div>
+    </body>
+	
+</html>

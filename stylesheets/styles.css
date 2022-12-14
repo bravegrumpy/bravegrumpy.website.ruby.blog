@@ -51,8 +51,11 @@ html {
     padding: 15px;
     top: 0;
     position: relative;
-    height: 10rem;
 }
+/*.row>.header>.left.spacer {
+    background-image: url("../Huetopia/assets/images/map01_001_d.png");
+}*/
+
 /************************************/
 
 /************************************/

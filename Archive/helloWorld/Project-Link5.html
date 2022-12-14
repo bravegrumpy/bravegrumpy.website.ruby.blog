@@ -1,0 +1,112 @@
+<!--
+  ~ Copyright (c) 2022.  BraveGrumpy.
+  ~ Do not reproduce contents without express written permission from the author.
+  ~ You can get permission by cloning the repository https://github.com/robin-zollner/bravegrumpy.website.git, and creating a new branch.
+  ~ Otherwise, you can email seacrestskylar@gmail.com, or join the discord server, linked within each page.
+  ~ The purpose of this website, is to practice responsive web design, and to publish creative writing.
+  -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Project Five</title>
+        <link rel="stylesheet" type="text/css" href="helloWorld_css.css"/>
+        <link rel="stylesheet" href="nav.css"/>
+        <link rel="icon" href="drawing.svg">
+    </head>
+
+    <body>
+    <nav>
+        <ul>
+            <li><a href="../old_homepage/index.html">Home</a></li>
+            <li><a href="helloWorld_html.html">Hello World Main</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropdown-button active">Project Links</a>
+                <div class="dropdown-content">
+                    <a href="Project-Link.html">Project 1</a>
+                    <a href="Project-Link2.html">Project 2</a>
+                    <a href="Project-Link3.html">Project 3</a>
+                    <a href="Project-Link4.html">Project 4</a>
+                    <a href="Project-Link5.html" class="active">Project 5</a>
+                    <a href="Project-Link6/Project-Link6.html">Project 6</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropdown-button">Misc. Files</a>
+                <div class="dropdown-content">
+                    <a href="Form-Redirect1.html">Form Redirect 1</a>
+                    <a href="Form-Redirect2.html">Form Redirect 2</a>
+                    <a href="new-tab.html">new tab</a>
+                    <a href="../old_homepage/err404.html">error404</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+        <div>
+            <p><a href="helloWorld_html.html">Back to Home</a> </p>
+        </div>
+        <section class="contact-form">
+            <div class="title">
+                <h1>Send Me a Message</h1>
+            </div>
+            <p>Use this handy contact form to get in touch with me.</p>
+            
+            <form>
+              <div class="input-group">
+                <input id="salutation-mr" name="salutation" type="radio" value="Mr."/>
+                <label class="inline" for="salutation-mr">Mr.</label>
+                
+                <input id="salutation-mrs" name="salutation" type="radio" value="Mrs."/>
+                <label class="inline" for="salutation-mrs">Mrs.</label>
+                
+                <input id="salutation-ms" name="salutation" type="radio" value="Ms."/>
+                <label class="inline" for="salutation-ms">Ms.</label>
+              </div>
+              
+              <div class="input-group">
+                <label for="name">Full Name</label>
+                <input id="name" name="name" type="text"/>
+              </div>
+              
+              <div class="input-group">
+                <label for="email">Email Address</label>
+                <input id="email" name="email" type="email"/>
+              </div>
+              
+              <div class="input-group">
+                <label for="subject">How can I help you?</label>
+                <select id="subject" name="subject">
+                  <option>I have a problem.</option>
+                  <option>I have a general question.</option>
+                </select>
+              </div>
+              
+              <div class="input-group">
+                <label for="message">Enter a Message</label>
+                <textarea id="message" name="message" rows="6" cols="65"></textarea>
+              </div>
+              
+              <div class="input-group">
+                <p class="group-label">Please send me:</p>
+                <input id="snacks-pizza" name="snacks" type="checkbox" value="pizza"/>
+                <label class="inline" for="snacks-pizza">Pizza</label>
+                <input id="snacks-cake" name="snacks" type="checkbox" value="cake"/>
+                <label class="inline" for="snacks-cake">Cake</label>
+              </div>
+              <input name="secret" type="hidden" value="1b3a9374-1a8e-434e-90ab-21aa7b9b80e7"/>
+              <button type="submit">Send It!</button>
+            </form>
+          </section>
+          
+          <div class="results">
+            <h2>Form Data</h2>
+            <pre></pre>
+            <script>
+                document.getElementById('output').innerHTML = "This text is written in embedded Javasript."
+            </script>
+            <p id="output">
+                This text is written in HTML
+            </p>
+          </div>
+    </body>
+</html>
