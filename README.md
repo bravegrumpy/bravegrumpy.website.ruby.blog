@@ -13,6 +13,9 @@ the best methodology for publishing it to the domain: bravegrumpy.com
 
 ## Change-Log
 ### 2022
+#### December 14<sup>th</sup>
+- [ ] I hope to refactor so that Huetopia is my main landing page. Otherwise, I might see what I can do about adding another subdomain for Huetopia. 
+I don't want to actually trash all of my work, but I also want to hide the majority of the archive from public viewing.
 #### December 11<sup>th</sup>
 -[x] Added in all Huetopia content.
 - [x] Successfully implemented responsive web design.
