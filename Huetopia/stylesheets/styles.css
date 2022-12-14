@@ -135,6 +135,27 @@ html {
 
 /************************************/
 /* center (body) */
+div.construction {
+    background-color: #000000;
+    font-size: 5rem;
+    text-align: center;
+    color: red;
+    font-family: 'Courier','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    transform: rotate(-10deg);
+    width: 100%;
+}
+
+p.construction {
+    background-color: #000000;
+    font-size: 1rem;
+    text-align: center;
+    color: red;
+    font-family: 'Courier','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    transform: rotate(10deg);
+    width: 100%;
+}
 
 /************************************/
 
