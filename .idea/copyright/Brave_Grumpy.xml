@@ -1,6 +1,6 @@
 <component name="CopyrightManager">
   <copyright>
-    <option name="notice" value="Copyright (c) &amp;#36;originalComment.match(&quot;Copyright \(c\) (\d+)&quot;, 1, &quot;-&quot;, &quot;&amp;#36;today.year&quot;)&amp;#36;today.year.  BraveGrumpy. &#10;Do not reproduce contents without express written permission from the author.&#10;You can get permission by cloning the repository https://github.com/robin-zollner/bravegrumpy.website.git, and creating a new branch.&#10;Otherwise, you can email seacrestskylar@gmail.com, or join the discord server, linked within each page.&#10;The purpose of this website, is to practice responsive web design, and to publish creative writing. " />
-    <option name="myName" value="Brave Grumpy" />
+    <option name="notice" value="Copyright (c) &amp;#36;originalComment.match(&quot;Copyright \(c\) (\d+)&quot;, 1, &quot;-&quot;, &quot;&amp;#36;today.year&quot;)&amp;#36;today.year.  BraveGrumpy. &#10;Do not reproduce contents without express written permission from the author.&#10;You can get permission by cloning the repository https://github.com/bravegrumpy/bravegrumpy.website.git, and creating a new branch.&#10;Otherwise, you can email seacrestskylar@gmail.com, or join the discord server, linked within each page.&#10;The purpose of this website, is to practice responsive web design, and to publish creative writing. " />
+    <option name="myName" value="BraveGrumpy" />
   </copyright>
 </component>
