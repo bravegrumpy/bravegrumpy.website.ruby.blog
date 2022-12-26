@@ -60,6 +60,9 @@ html {
 
 /************************************/
 /* menu */
+.menu .active {
+    font-weight: bold;
+}
 .menu ul {
     list-style-type: none;
     margin: 0;
@@ -77,6 +80,10 @@ html {
 .menu li a {
     text-decoration: none;
     color: #000000;
+}
+
+.menu li.active a {
+    color: #144614;
 }
 
 .menu li:hover{
@@ -111,7 +118,6 @@ p.construction {
     transform: rotate(10deg);
     width: 100%;
 }
-
 /************************************/
 
 /************************************/
