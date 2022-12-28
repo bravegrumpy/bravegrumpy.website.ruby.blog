@@ -71,7 +71,7 @@ html {
     padding: 10px;
     text-decoration: none;
     margin-bottom: 10px;
-    background-color: #d1dcff;
+    background-color: #beb4ff ;
     color: #000000;
     box-shadow: 0 1px rgba(0, 0, 0, 0.12), 0, 1px 2px, rgba(0, 0, 0, 0.24);
 }
@@ -82,7 +82,7 @@ html {
 }
 
 .navbar li:hover{
-    background-color: #a7bcff;
+    background-color: #d1dcff;
 }
 /************************************/
 
@@ -108,6 +108,10 @@ html {
 .menu li a {
     text-decoration: none;
     color: #000000;
+}
+
+.menu li.active {
+    background-color: aqua;
 }
 
 .menu li.active a {
