@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2022.  BraveGrumpy.
  * Do not reproduce contents without express written permission from the author.
- * You can get permission by cloning the repository https://github.com/robin-zollner/bravegrumpy.website.git, and creating a new branch.
+ * You can get permission by cloning the repository https://github.com/bravegrumpy/bravegrumpy.website.git, and creating a new branch.
  * Otherwise, you can email seacrestskylar@gmail.com, or join the discord server, linked within each page.
  * The purpose of this website, is to practice responsive web design, and to publish creative writing.
  */
@@ -55,7 +55,35 @@ html {
 /*.row>.header>.left.spacer {
     background-image: url("../Huetopia/assets/images/map01_001_d.png");
 }*/
+/************************************/
 
+/************************************/
+/* navbar */
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-left: 2px;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    background-color: #d1dcff;
+    color: #000000;
+    box-shadow: 0 1px rgba(0, 0, 0, 0.12), 0, 1px 2px, rgba(0, 0, 0, 0.24);
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar li:hover{
+    background-color: #a7bcff;
+}
 /************************************/
 
 /************************************/
@@ -123,6 +151,7 @@ p.construction {
 /************************************/
 /* aside */
 .aside {
+    margin-bottom: 3rem;
     background-color: #a7bcff;
     padding: 15px;
     color: #000000;
@@ -179,10 +208,14 @@ p.construction {
 @media only screen and (max-width: 600px) {
     /* xs */
 
-    /* Uncomment the below line to see blocking guides*/
-    /*[class*="col-"] {
-        border: 1px solid rgb(255, 0, 0);
-    }*/
+    
+    [class*="col-"] {
+        width: 100%;
+        /* Uncomment the below line to see blocking guides*/
+        /*border: 1px solid rgb(255, 0, 0);*/
+    }
+    /* Uncomment the code block below to enable specific widths for xs screens*/
+    /*
     .col-xs-1 {width: 8.33%;}
     .col-xs-2 {width: 16.66%;}
     .col-xs-3 {width: 25%;}
@@ -195,6 +228,7 @@ p.construction {
     .col-xs-10 {width: 83.33%;}
     .col-xs-11 {width: 91.66%;}
     .col-xs-12 {width: 100%;}
+    */
 }
 /*************************************************/
 
@@ -304,6 +338,7 @@ p.construction {
 /* Extra-extra large devices (High res displays 1870 px and up) */
 @media only screen and (min-width: 1870px) {
     /*xxl*/
+
     /* Uncomment the below line to see blocking guides*/
     /*[class*="col-"] {
         border: 1px solid rgb(255, 255, 0);
