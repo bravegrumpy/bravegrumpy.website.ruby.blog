@@ -16,9 +16,25 @@ the best methodology for publishing it to the domain: bravegrumpy.com
 
 ### 2022
 
+#### December 29<sup>th</sup>
+
+I know I haven't updated this readme in a while. Here are some highlights:
+
+- [x] Moved most of the previous BraveGrumpy content into an archive folder with no direct link.
+- [x] Structured the site to follow the Coursera Week-by-week format
+- [x] Added in the navbar and menus necessary to navigate the site
+- [x] added in `construction` class so I can have placeholders for future work.
+- [x] Linked to these pages within Coursera, so I can give future readers context.
+- [x] Ensured that the archive exists, so that I can merge huetopia into the main branch.
+- [x] Made the main production branch pull from huetoipia:
+  - [x] [Production Site](https://www.bravegrumpy.com)
+  - [x] Created another pointer: [Huetopia Branch](https://huetopia.bravegrumpy.com) which shows identical content to the production branch at the moment.
+  - [x] The main branch can at any time be reverted, and the huetopia branch will still persist.
+- [x] Ensured that the svg files included on the site are pure svg, and not inkscape-svg. 
+
 #### December 16<sup>th</sup>
 
-- [ ] Insert 
+- [ ] Insert something?
 
 #### December 14<sup>th</sup>
 

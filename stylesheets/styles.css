@@ -111,7 +111,7 @@ html {
 }
 
 .menu li.active {
-    background-color: aqua;
+    background-color: #a7bcff;
 }
 
 .menu li.active a {
@@ -120,6 +120,10 @@ html {
 
 .menu li:hover{
     background-color: #a7bcff;
+}
+
+.menu li.active:hover{
+    background-color: #d1dcff;
 }
 
 .menu li a {
