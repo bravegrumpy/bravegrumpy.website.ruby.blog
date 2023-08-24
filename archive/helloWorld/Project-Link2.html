@@ -1,0 +1,98 @@
+<!--
+  ~ Copyright (c) 2022.  BraveGrumpy.
+  ~ Do not reproduce contents without express written permission from the author.
+  ~ You can get permission by cloning the repository https://github.com/robin-zollner/bravegrumpy.website.git, and creating a new branch.
+  ~ Otherwise, you can email seacrestskylar@gmail.com, or join the discord server, linked within each page.
+  ~ The purpose of this website, is to practice responsive web design, and to publish creative writing.
+  -->
+
+<!Doctype html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="helloWorld_css.css">
+	<link rel="stylesheet" href="nav.css">
+	<link rel="icon" href="drawing.svg">
+	<title>Project-Link2</title>
+
+</head>
+<body>
+<nav>
+	<ul>
+		<li><a href="../index.html">Home</a></li>
+		<li><a href="helloWorld_html.html">Hello World Main</a></li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropdown-button active">Project Links</a>
+			<div class="dropdown-content">
+				<a href="Project-Link.html">Project 1</a>
+				<a href="Project-Link2.html" class="active">Project 2</a>
+				<a href="Project-Link3.html">Project 3</a>
+				<a href="Project-Link4.html">Project 4</a>
+				<a href="Project-Link5.html">Project 5</a>
+				<a href="Project-Link6/Project-Link6.html">Project 6</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropdown-button">Misc. Files</a>
+			<div class="dropdown-content">
+				<a href="Form-Redirect1.html">Form Redirect 1</a>
+				<a href="Form-Redirect2.html">Form Redirect 2</a>
+				<a href="new-tab.html">new tab</a>
+				<a href="../err404.html">error404</a>
+			</div>
+		</li>
+	</ul>
+</nav>
+	<div class="title"><h1>What can JavaScript do?</h1></div>
+		<p>These sections are following the JavaScript introduction in w3schools. However, all assets are of my own creation.</p>
+	<div class="page HiLevel" id="project2">
+
+	
+		<div class="section interactive" id="p2sec1">
+			<h2>JavaScript in Body</h2>
+				<p id="default">This is a default paragraph</p>
+				<button type="button" onclick='document.getElementById("default").innerHTML = "This is a different paragraph."'>Click Me!</button>
+		</div>
+
+		<div class="section interactive" id="p2sec2">
+			<h2>What else can JavaScript Do?</h2>
+				<p id="quote-types">JavaScript can accept both single and double quotes as string literals. <br> You can also set the event the button is listening for.</p>
+				<button type="button" ondblclick="document.getElementById('quote-types').innerHTML = 'This is yet another paragraph'">Double Click Me</button>
+		</div>
+
+		<div class="section interactive" id="p2sec3">
+			<h2>JavaScript changing Images</h2>
+				<p>JavaScript can change html attribute values. <br> This means that it is not limited to just text. You can change the src (source) attribute of an image tag.</p>
+
+				<button onclick="document.getElementById('face').src='img_face_sad.png'">Make Mike Sad</button>
+
+				<img alt="doodled happy face" src="img_face_happy.png" id="face" style="width:300px;">
+
+				<button onclick="document.getElementById('face').src='img_face_happy.png'"> Make Mike Happy </button>
+		</div>
+
+		<div class="section interactive" id="p2sec4">
+			<h2>JavaScript changing HTML styles</h2>
+				<p id="change-css">I made Mike in a program called Blender. These images are just rendered stills from a full animation.<br> Blender is an excellent tool for both 2D and 3D animation, however, it is easier to draw images in Procreate on the ipad</p>
+				<button onclick="document.getElementById('change-css').style.fontFamily='serif'" ondblclick="document.getElementById('change-css').style.backgroundColor= 'var(--main-bg)'">Fuck you <br> don't press me</button>
+		</div>
+
+		<div class="section interactive" id="p2sec5">
+			<h2>Hiding HTML elements</h2>
+			<p id="hide-element" display="none">This is a paragraph. If this works, there will be a button that makes it go poof. This is a secret message. If you want to hide it, press one of the buttons.</p>
+			<button onclick="document.getElementById('hide-element').style.display = 'none'">Hide the secret Message</button>
+			<button onclick="document.getElementById('hide-element').style.display = 'block'">Show the secret Message</button>
+			
+
+		</div>
+	</div>
+
+
+	<footer>
+		<p id="navigation"><a href="helloWorld_html.html">Go Home</a></p>
+	</footer>
+	
+
+</body>
+</html>

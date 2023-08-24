@@ -1,0 +1,174 @@
+<!--
+  ~ Copyright (c) 2022.  BraveGrumpy.
+  ~ Do not reproduce contents without express written permission from the author.
+  ~ You can get permission by cloning the repository https://github.com/robin-zollner/bravegrumpy.website.git, and creating a new branch.
+  ~ Otherwise, you can email seacrestskylar@gmail.com, or join the discord server, linked within each page.
+  ~ The purpose of this website, is to practice responsive web design, and to publish creative writing.
+  -->
+
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Test Portfolio</title>
+		<link rel="stylesheet" href="helloWorld_css.css"/>
+		<link rel="stylesheet" href="nav.css"/>
+		<link rel="icon" href="drawing.svg">
+		<script src="helloWorld_js.js"></script>
+	</head>
+
+	<body>
+		<div class="title" id="sec0">
+			<h1>Hello World Code</h1>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="helloWorld_html.html" class="active">Hello World Main</a></li>
+				<li class="dropdown">
+					<a href="javascript:void(0)" class="dropdown-button">Project Links</a>
+					<!--TODO: Is it possible to concatinate a whole bunch of html files?-->
+					<div class="dropdown-content">
+						<a href="Project-Link.html">Project 1</a>
+						<a href="Project-Link2.html">Project 2</a>
+						<a href="Project-Link3.html">Project 3</a>
+						<a href="Project-Link4.html">Project 4</a>
+						<a href="Project-Link5.html">Project 5</a>
+						<a href="Project-Link6/Project-Link6.html">Project 6</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="javascript:void(0)" class="dropdown-button">Misc. Files</a>
+					<div class="dropdown-content">
+						<a href="Form-Redirect1.html">Form Redirect 1</a>
+						<a href="Form-Redirect2.html">Form Redirect 2</a>
+						<a href="new-tab.html">new tab</a>
+						<a href="../err404.html">error404</a>
+					</div>
+				</li>
+			</ul>
+		</nav>
+<!-------------------------------------------------------------------------------------------------------------------->
+		<main>
+			<div class="section" id="sec1">
+				<h2>Trying Things Out</h2>
+				<p>The Portfolio Projects dropdown menu holds various files I have created. </p>
+				<div class="list helloWorld-dropdown navbar" id="portfolios">
+					<button class="helloWorld-dropdown-button">Portfolio Projects</button>
+					<div class="helloWorld-dropdown-content">
+						<a href="Project-Link.html"> Project Number One </a>
+						<a href="Project-Link2.html"> Project Number Two </a>
+						<a href="Project-Link3.html"> Project Number Three </a>
+						<a href="Project-Link4.html"> Project Number Four </a>
+						<a href="Project-Link5.html"> Project Number Five </a>
+						<a href="Project-Link6/Project-Link6.html"> Project Number Six </a>
+					</div>
+				</div>
+
+				<div class="section subsection" id="sec1-2">
+					<br/>
+					<p> When I want to link to another author's work, I might create a link that <a href="new-tab.html" target="_blank"> opens a new tab</a>.</p>
+				</div>
+
+				<div class="section subsection" id="sec1-3">
+					<h2>Notes about content below the line:</h2>
+					<p>All further content on this page is non-functional. This means that no data is saved, and there are no linked js files, beyond the alerts that you see.</p>
+				</div>
+			</div>
+			<hr/>
+
+<!-------------------------------------------------------------------------------------------------------------------->
+
+			<div class="section" id="sec2">
+				<h2>Submitting Information in a form</h2>
+				<p>Another intention of this page will be to effectively format it. Clearly, the appropriate CSS and JS
+					files will be in this folder, and linked in the html head.</p>
+
+				<div class="interactive HiLevel" id="sec2-1">
+					<h3>Enter Ideas Here:</h3>
+					<p class="note-text">Note that you must enter an idea before pressing submit.</p>
+					<form action="Form-Redirect1.html">
+						<div class="interactive" id="sec2-1-1">
+							<label for="input1">Required Field:
+								<input id="input1" type="text" name="title" placeholder="Idea title: not optional" required>
+							</label><br/>
+							<label for="input2">Optional Information:
+								<input id="input2" type="text" name="optional info" placeholder="Optional Information">
+							</label><br/><br/>
+						</div>
+						<div class="interactive" id="sec2-1-2">
+
+							Choose your favorite option:<br/>
+							<label for="one">
+								<input id="one" type="radio" name="favorite-number" value="one"> One
+							</label><br>
+							<label for="two">
+								<input id="two" type="radio" name="favorite-number" value="two">Two
+							</label><br>
+							<label for="three">
+								<input id="three" type="radio" name="favorite-number" value="three">Three
+							</label><br/><br/>
+
+							Choose all the options you like:<br>
+							<label for="ice-cream">
+								<input id="ice-cream" type="checkbox" name="food" value="ice-cream"> Ice Cream
+							</label><br>
+							<label for="pizza">
+								<input id="pizza" type="checkbox" name="food" value="pizza">Pizza
+							</label><br>
+							<label for="sushi">
+								<input id="sushi" type="checkbox" name="food" value="sushi">Sushi
+							</label><br>
+							<label for="onions">
+								<input id="onions" type="checkbox" name="food" value="onions">Onions
+							</label><br><br>
+
+							<p class="sidebar">Uncheck this box if you want to continue:
+							<label for="consent">
+								<input id="consent" type="checkbox" name="continue" value="consent" checked>
+							</label></p><br>
+						</div>
+						<button type="submit">ENTER</button>
+					</form>
+				</div>
+			</div>
+
+<!-------------------------------------------------------------------------------------------------------------------->
+
+			<div class="section" id= "sec3">
+				<div class="interactive HiLevel" id="sec3-1">
+					<form action="Form-Redirect2.html">
+						<h3>This is another form:</h3>
+						<p>There could be information here.</p>
+						<button type="submit">Submission</button>
+
+					</form>
+				</div>
+			</div>
+
+<!-------------------------------------------------------------------------------------------------------------------->
+
+			<div class="section" id="sec4">
+				<h2>Filler Text</h2>
+				<div class="HiLevel" id="sec4-1">
+					<h3> Below is some filler text created with lorem ipsum generation in vscode</h3>
+                	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ea eos consequatur?
+						Quidem sint repudiandae odio quae veritatis corrupti quisquam facere ipsa? Dolor recusandae
+						officiis ut nesciunt quaerat voluptatem veritatis. Lorem, ipsum dolor sit amet consectetur
+						adipisicing elit. Commodi, recusandae similique accusantium adipisci sed itaque optio a, debitis
+						cum architecto dolor iste ea numquam, molestias neque necessitatibus cumque. Tempore, omnis!
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores saepe iste asperiores! Vero,
+						fugit quibusdam autem eum facere corrupti, id necessitatibus sunt sit saepe, tempore commodi
+						sapiente. Nihil, laudantium eum?</p>
+				</div>
+				<div class="HiLevel" id="sec4-2">
+					<h3>Different Filler Text</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto excepturi nihil
+						voluptas? Aliquid atque eaque ex harum in iste, laboriosam mollitia odio praesentium quam
+						recusandae unde ut? At, dolores. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Aspernatur facere magnam quis vitae? Animi corporis culpa dolore dolorem incidunt laboriosam
+						nulla quae quis quisquam sunt. Alias error nulla odio saepe.</p>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
