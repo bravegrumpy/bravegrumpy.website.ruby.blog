@@ -58,6 +58,8 @@ html {
 /************************************/
 
 /************************************/
+
+/************************************/
 /* navbar */
 
 .navbar ul {
@@ -81,8 +83,21 @@ html {
     color: #000000;
 }
 
-.navbar li:hover{
+.navbar li.active a {
+    color: #144614;
+}
+
+.navbar .active {
     background-color: #d1dcff;
+    font-weight:  bold;
+}
+
+.navbar .active:hover {
+    background-color: #beb4ff;
+}
+
+.navbar li:hover{
+    background-color: #d2c8ff;
 }
 /************************************/
 
