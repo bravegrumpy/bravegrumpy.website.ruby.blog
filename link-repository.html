@@ -9,6 +9,9 @@
         <title>BraveGrumpy Homepage</title>
         <link rel="stylesheet" href="stylesheets/styles.css">
         <link rel="icon" href="assets/images/BG_logo.png">
+        <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
+        <script src="markdownConvert.js"></script>
+
     </head>
     <body>
         <div class="row">
@@ -43,7 +46,7 @@
             </div>
             <div class="col-s-9 col-m-6">
                 <div class="section">
-                    <h2>Blender</h2>
+                    <h2>Blender Physical Based Reality Resources</h2>
                     <div class="section">
                         <h3>Procedural Material Development</h3>
                         <div class="section">
@@ -103,6 +106,82 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="section">
+                        <h3> Lighting</h3>
+                        <p>Lighting in Blender is measured in Watts, but this is not light-bulb energy, but <em>radiant flux</em>, a measure of brightness. Below is a table of realistic values. </p>
+                        <p>For artificial light sources, divide the lumen rating by the luminous efficacy to get the appropriate value.</p>
+                        <p>For outdoor conditions, directly use the Radiant flux value given.</p>
+                        <table>
+                            <tr>
+                                <th>Light Source Type</th>
+                                <th>Luminous Efficacy (lm/W)</th>
+                                <th>Radiant Flux (W/m²)</th>
+                                <th>Illuminance (lux)</th>
+                            </tr>
+                            <tr>
+                                <td>Incandescent Bulb</td>
+                                <td>10-17</td><td>-</td><td>-</td>
+                            </tr>
+                            <tr>
+                                <td>Halogen Bulb</td><td>16-24</td><td>-</td><td>-</td>
+                            </tr>
+                            <tr>
+                                <td>Compact Fluorescent Lamp (CFL)</td><td>45-75</td><td>-</td><td>-</td>
+                            </tr>
+                            <tr>
+                                <td>LED Bulb</td><td>80-100+</td><td>-</td><td>-</td>
+                            </tr>
+                            <tr>
+                                <td>Metal Halide Lamp</td><td>65-115</td><td>-</td><td>-</td>
+                            </tr>
+                            <tr>
+                                <td>High-Pressure Sodium Lamp</td><td>70-100</td><td>-</td><td>-</td>
+                            </tr>
+                            <tr>
+                                <td>Low-Pressure Sodium Lamp</td><td>100-200</td><td>-</td><td>-</td>
+                            </tr>
+                            <tr>
+                                <td>Tungsten Photographic/Film Light</td><td>15-22</td><td>-</td><td>-</td>
+                            </tr>
+                            <tr>
+                                <td>HMI (Hydrargyrum Medium-arc Iodide) Photo Light</td><td>85-108</td><td>-</td><td>-</td>
+                            </tr>
+                            <tr>
+                                <td>LED Photographic/Film Light</td> <td>80-100</td><td>-</td><td>-</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Outdoor Conditions</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Sunny Day</td><td>-</td><td>~1000 W/m²</td> <td>100,000-130,000</td>
+                            </tr>
+                            <tr><td>Cloudy Day</td>	<td>-</td>	<td>~100-500 W/m²</td>	<td>1,000-5,000</td>
+                            </tr>
+                            <tr>
+                                <td>Full Moon Night</td><td>-</td>	<td>~0.0001-0.0003 W/m²</td><td>0.1-0.3</td>
+                            </tr>
+                            <tr>
+                                <td><strong>New Moon Night Conditions</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Clear Sky, No Light Pollution</td>	<td>-</td>	<td>~0.00002 W/m²</td>	<td>0.002-0.003</td>
+                            </tr>
+                            <tr>
+                                <td>Clear Sky, High Light Pollution</td>	<tr>-</tr>	<td>~0.00001 W/m²</td>	<td>0.001-0.002</td>
+                            </tr>
+                            <tr>
+                                <td>Cloudy Sky, No Light Pollution</td>
+                                <td>-</td>	<td>~0.000005 W/m²</td>	
+                                <td>0.0005-0.001</td>
+                            </tr>
+                            <tr>
+                                <td>Cloudy Sky, High Light Pollution</td>
+                                <td>-</td>
+                                <td>~0.000002 W/m²</td>
+                                <td>0.0002-0.0005</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>

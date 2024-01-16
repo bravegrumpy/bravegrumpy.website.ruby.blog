@@ -1,0 +1,29 @@
+Certainly! When adding typical values for a night with stars during a new moon, we need to consider that the illuminance levels are extremely low, especially compared to daylight or artificial lighting. The radiant flux values will also be very low. Here's the updated table with these conditions added:
+
+| Light Source Type                  | Luminous Efficacy (lm/W) | Radiant Flux (W/m²) | Illuminance (lux) |
+|------------------------------------|--------------------------|---------------------|-------------------|
+| Incandescent Bulb                  | 10-17                    | -                   | -                 |
+| Halogen Bulb                       | 16-24                    | -                   | -                 |
+| Compact Fluorescent Lamp (CFL)     | 45-75                    | -                   | -                 |
+| LED Bulb                           | 80-100+                  | -                   | -                 |
+| Metal Halide Lamp                  | 65-115                   | -                   | -                 |
+| High-Pressure Sodium Lamp          | 70-100                   | -                   | -                 |
+| Low-Pressure Sodium Lamp           | 100-200                  | -                   | -                 |
+| Tungsten Photographic/Film Light   | 15-22                    | -                   | -                 |
+| HMI (Hydrargyrum Medium-arc Iodide) Photo Light | 85-108       | -                   | -                 |
+| LED Photographic/Film Light        | 80-100+                  | -                   | -                 |
+| **Outdoor Conditions**             |                          |                     |                   |
+| Sunny Day                          | -                        | ~1000 W/m²          | 100,000-130,000   |
+| Cloudy Day                         | -                        | ~100-500 W/m²       | 1,000-5,000       |
+| Full Moon Night                    | -                        | ~0.0001-0.0003 W/m² | 0.1-0.3           |
+| **New Moon Night Conditions**      |                          |                     |                   |
+| 1. Clear Sky, No Light Pollution   | -                        | ~0.00002 W/m²       | 0.002-0.003       |
+| 2. Clear Sky, High Light Pollution | -                        | ~0.00001 W/m²       | 0.001-0.002       |
+| 3. Cloudy Sky, No Light Pollution  | -                        | ~0.000005 W/m²      | 0.0005-0.001      |
+| 4. Cloudy Sky, High Light Pollution| -                        | ~0.000002 W/m²      | 0.0002-0.0005     |
+
+Note:
+- The values for new moon night conditions are very approximate and can vary. The radiant flux and illuminance levels are extremely low in these scenarios.
+- The illuminance levels for a night with stars are given in lux, which is a very small fraction of the levels experienced during the day or under artificial lighting.
+- "No Light Pollution" refers to conditions far from city lights or other artificial sources, where the sky is at its darkest and stars are most visible.
+- "High Light Pollution" refers to conditions in urban or suburban areas where artificial lighting significantly reduces the visibility of stars.
