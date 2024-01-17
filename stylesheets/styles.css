@@ -32,6 +32,7 @@
 /* Making sizing include padding */
 * {
     box-sizing: border-box;
+    background-color: var(--light0);
 }
 /************************************/
 

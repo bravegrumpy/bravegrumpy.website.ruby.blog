@@ -11,42 +11,43 @@
         <link rel="icon" href="assets/images/BG_logo.png">
     </head>
     <body>
-        <div class="row">
-            <div class="col-s-12 col-m-12 col-l-12 header">
+        <div class="row" id="page-heading">
+            <div class="col-s-12 col-m-12 col-l-12 header" id="full-width-heading">
                 <div class="col-m-4"></div>
-                <div class="col-m-4 title">
+                <div class="col-m-4 title" id="title">
                     <h1>Informational Links</h1>
                     <p><span class="subtitle">This is a place for me to store helpful links. They are sorted by relelvant use-case.</span></p>
                 </div>
             </div>
         </div>
-        <div class="row">
-                <div class="col-s-12 col-m-12 col-l-12 col-xl-12 navbar">
-                    <ul>
-                        <li class="col-s-12 col-m-2 col-l-2 col-xl-2">
-                            <a href="index.html">Brave Grumpy Homepage</a>
-                        </li>
-                        <li class="col-s-12 col-m-2 col-l-2 col-xl-2">
-                            <a href="writing.html">Huetopia Homepage</a>
-                        </li>
-                        <!-- li>
-                            <a href="#">Art Portfolio</a>
-                        </li-->
-                        <li class="active col-s-12 col-m-2 col-l-2 col-xl-2">
-                            <a href="link-repository.html">Helpful Link Repository</a>
-                        </li>
-                        <li class="col-s-12 col-m-2 col-l-2 col-xl-2">
-                            <a href="archive/index.html">Old, Experimental homepage</a>
-                        </li>
-                    </ul>
-                </div>
+        <div class="row" id="site-navigation">
+            <div class="col-s-12 col-m-12 col-l-12 col-xl-12 navbar">
+                <ul>
+                    <li class="col-s-12 col-m-2 col-l-2 col-xl-2">
+                        <a href="index.html">Brave Grumpy Homepage</a>
+                    </li>
+                    <li class="col-s-12 col-m-2 col-l-2 col-xl-2">
+                        <a href="writing.html">Huetopia Homepage</a>
+                    </li>
+                    <!-- li>
+                        <a href="#">Art Portfolio</a>
+                    </li-->
+                    <li class="active col-s-12 col-m-2 col-l-2 col-xl-2">
+                        <a href="link-repository.html">Helpful Link Repository</a>
+                    </li>
+                    <li class="col-s-12 col-m-2 col-l-2 col-xl-2">
+                        <a href="archive/index.html">Old, Experimental homepage</a>
+                    </li>
+                </ul>
             </div>
+        </div>
+        <div class="row" id="main-content-1">
             <div class="col-s-9 col-m-6">
-                <div class="section">
+                <div class="section" id="pbr">
                     <h2>Blender Physical Based Reality Resources</h2>
-                    <div class="section">
+                    <div class="section" id="materials">
                         <h3>Procedural Material Development</h3>
-                        <div class="section">
+                        <div class="section" id="ior">
                             <h4>Lists of IOR values</h4>
                             <div class="menu">
                                 <div class="nav-list">
@@ -74,9 +75,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="section">
+                    <div class="section" id="scale">
                         <h3> Relistic Scale Resources </h3>
-                        <div class="section">
+                        <div class="section" id="greenhouse">
                             <h4>Greenhouse</h4>
                             <div class="menu">
                                 <div class="nav-list">
@@ -88,7 +89,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section">
+                        <div class="section" id="scientific-glassware">
                             <h4>Scientific Glassware</h4>
                             <div class="menu">
                                 <div class="nav-list">
@@ -103,119 +104,118 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="section">
-                        <h3> Lighting</h3>
-                        <div class="section">
-                            <p>Lighting in Blender is measured in Watts, but this is not light-bulb energy, but <em>radiant flux</em>, a measure of brightness. Below is a table of realistic values. </p>
-                            <p>For artificial light sources, divide the lumen rating by the luminous efficacy to get the appropriate value.</p>
-                            <p>For outdoor conditions, directly use the Radiant flux value given.</p>
-                            <table>
-                                <h4>Common Lighting Radiant Flux Luminous Efficacy</h4>
-                                <tr>
-                                    <th>Light Source Type</th>
-                                    <th>Luminous Efficacy (lm/W)</th>
-                                    <th>Radiant Flux (W/m²)</th>
-                                    <th>Illuminance (lux)</th>
-                                </tr>
-                                <tr>
-                                    <td>Incandescent Bulb</td>
-                                    <td>10-17</td><td>-</td><td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>Halogen Bulb</td><td>16-24</td><td>-</td><td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>Compact Fluorescent Lamp (CFL)</td><td>45-75</td><td>-</td><td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>LED Bulb</td><td>80-100+</td><td>-</td><td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>Metal Halide Lamp</td><td>65-115</td><td>-</td><td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>High-Pressure Sodium Lamp</td><td>70-100</td><td>-</td><td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>Low-Pressure Sodium Lamp</td><td>100-200</td><td>-</td><td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>Tungsten Photographic/Film Light</td><td>15-22</td><td>-</td><td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>HMI (Hydrargyrum Medium-arc Iodide) Photo Light</td><td>85-108</td><td>-</td><td>-</td>
-                                </tr>
-                                <tr>
-                                    <td>LED Photographic/Film Light</td> <td>80-100</td><td>-</td><td>-</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>Outdoor Conditions</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Sunny Day</td><td>-</td><td>~1000 W/m²</td> <td>100,000-130,000</td>
-                                </tr>
-                                <tr><td>Cloudy Day</td>	<td>-</td>	<td>~100-500 W/m²</td>	<td>1,000-5,000</td>
-                                </tr>
-                                <tr>
-                                    <td>Full Moon Night</td><td>-</td>	<td>~0.0001-0.0003 W/m²</td><td>0.1-0.3</td>
-                                </tr>
-                                <tr>
-                                    <td><strong>New Moon Night Conditions</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Clear Sky, No Light Pollution</td>	<td>-</td>	<td>~0.00002 W/m²</td>	<td>0.002-0.003</td>
-                                </tr>
-                                <tr>
-                                    <td>Clear Sky, High Light Pollution</td>	<tr>-</tr>	<td>~0.00001 W/m²</td>	<td>0.001-0.002</td>
-                                </tr>
-                                <tr>
-                                    <td>Cloudy Sky, No Light Pollution</td>
-                                    <td>-</td>	<td>~0.000005 W/m²</td>	
-                                    <td>0.0005-0.001</td>
-                                </tr>
-                                <tr>
-                                    <td>Cloudy Sky, High Light Pollution</td>
-                                    <td>-</td>
-                                    <td>~0.000002 W/m²</td>
-                                    <td>0.0002-0.0005</td>
-                                </tr>
-                            </table>
+                        <div class="section" id="lighting">
+                            <h3> Lighting</h3>
+                            <div class="section" id="common-values1">
+                                <p>Lighting in Blender is measured in Watts, but this is not light-bulb energy, but <em>radiant flux</em>, a measure of brightness. Below is a table of realistic values. </p>
+                                <p>For artificial light sources, divide the lumen rating by the luminous efficacy to get the appropriate value.</p>
+                                <p>For outdoor conditions, directly use the Radiant flux value given.</p>
+                                <table>
+                                    <h4>Common Lighting Radiant Flux Luminous Efficacy</h4>
+                                    <tr>
+                                        <th>Light Source Type</th>
+                                        <th>Luminous Efficacy (lm/W)</th>
+                                        <th>Radiant Flux (W/m²)</th>
+                                        <th>Illuminance (lux)</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Incandescent Bulb</td>
+                                        <td>10-17</td><td>-</td><td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Halogen Bulb</td><td>16-24</td><td>-</td><td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Compact Fluorescent Lamp (CFL)</td><td>45-75</td><td>-</td><td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>LED Bulb</td><td>80-100+</td><td>-</td><td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Metal Halide Lamp</td><td>65-115</td><td>-</td><td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>High-Pressure Sodium Lamp</td><td>70-100</td><td>-</td><td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Low-Pressure Sodium Lamp</td><td>100-200</td><td>-</td><td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tungsten Photographic/Film Light</td><td>15-22</td><td>-</td><td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>HMI (Hydrargyrum Medium-arc Iodide) Photo Light</td><td>85-108</td><td>-</td><td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>LED Photographic/Film Light</td> <td>80-100</td><td>-</td><td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Outdoor Conditions</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sunny Day</td><td>-</td><td>~1000 W/m²</td> <td>100,000-130,000</td>
+                                    </tr>
+                                    <tr><td>Cloudy Day</td>	<td>-</td>	<td>~100-500 W/m²</td>	<td>1,000-5,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Full Moon Night</td><td>-</td>	<td>~0.0001-0.0003 W/m²</td><td>0.1-0.3</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>New Moon Night Conditions</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Clear Sky, No Light Pollution</td>	<td>-</td>	<td>~0.00002 W/m²</td>	<td>0.002-0.003</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Clear Sky, High Light Pollution</td>	<tr>-</tr>	<td>~0.00001 W/m²</td>	<td>0.001-0.002</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cloudy Sky, No Light Pollution</td>
+                                        <td>-</td>	<td>~0.000005 W/m²</td>	
+                                        <td>0.0005-0.001</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cloudy Sky, High Light Pollution</td>
+                                        <td>-</td>
+                                        <td>~0.000002 W/m²</td>
+                                        <td>0.0002-0.0005</td>
+                                    </tr>
+                                </table>
+                            </div>
                         </div>
-                        <div class="section">
                     </div>
-                </div>
-            </div>
-        <div class="row">
-            <div class="col-s-12 footer">
-                <div class="col-m-4 copyright">
-                    <p>Copyright &copy; <img height="30em"src="assets/images/BraveGrumpyRectange_color_typed.png"> &trade; </p>
-                </div>
-                <div class="col-m-4 contact-me">
-                    <div class="col-s-4"></div>
-                    <div class="col-s-4">
-                        <p>
-                            <a href="https://discord.gg/ZfMntbk5U4" target="_blank"><img height="30em" alt="Join the Discord Server in fun font." src="https://fontmeme.com/permalink/221211/d065f759532815397d12a82c27e8988c.png"></a>
-                        </p>
-                    </div>
-                    <div class="col-s-4"></div>
-                </div>
-                <div class="col-m-4 email">
-                    <div class="col-s-4"></div>
-                    <div class="col-s-4">
-                        <p>
-                            <a href="mailto:info@bravegrumpy.com" target="_blank"><img height="30em" src="https://fontmeme.com/permalink/231031/0c070e833e2d90b5effc2581b747e400.png"></a>
-                        </p>
-                    </div>
-                    <div class="col-s-4"></div>
-                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-12 col-s-12">
-                <div class="col-m-4 col-l-4 col-xl-4">
+    </div>
+    <div class="row" id="page-end">
+        <div class="col-s-12 footer">
+            <div class="col-m-4 copyright">
+                <p>Copyright &copy; <img height="30em"src="assets/images/BraveGrumpyRectange_color_typed.png"> &trade; </p>
+            </div>
+            <div class="col-m-4 contact-me">
+                <div class="col-s-4"></div>
+                <div class="col-s-4">
+                    <p>
+                        <a href="https://discord.gg/ZfMntbk5U4" target="_blank"><img height="30em" alt="Join the Discord Server in fun font." src="https://fontmeme.com/permalink/221211/d065f759532815397d12a82c27e8988c.png"></a>
+                    </p>
                 </div>
-            </div> 
+                <div class="col-s-4"></div>
+            </div>
+            <div class="col-m-4 email">
+                <div class="col-s-4"></div>
+                <div class="col-s-4">
+                    <p>
+                        <a href="mailto:info@bravegrumpy.com" target="_blank"><img height="30em" src="https://fontmeme.com/permalink/231031/0c070e833e2d90b5effc2581b747e400.png"></a>
+                    </p>
+                </div>
+                <div class="col-s-4"></div>
+            </div>
         </div>
-    </body>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-s-12">
+            <div class="col-m-4 col-l-4 col-xl-4"></div>
+        </div> 
+    </div>
+</body>
 </html>
