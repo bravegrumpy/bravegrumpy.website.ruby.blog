@@ -12,6 +12,23 @@
 /************************************/
 
 /************************************/
+/* Adding list of color names for easier future reference */
+:root {
+    --light0: #ffffff;
+    --dark0: #000000;
+    --dark1: #144614;;
+    --accent1A: #d2c8ff;
+    --accent1B: #beb4ff;
+    --accent2A: #d1dcff;
+    --accent2B: #a7bcff;
+    --boxShadowLight: rgba(0, 0, 0, 0.12);
+    --boxShadowDark: rgba(0,0,0,0.24);
+
+
+}
+/************************************/
+
+/************************************/
 /* Making sizing include padding */
 * {
     box-sizing: border-box;
@@ -45,8 +62,8 @@ html {
 /************************************/
 /* header */
 .header{
-    background-color: #d2c8ff;
-    color: #000000;
+    background-color: var(--accent1A);
+    color: var(--dark0);
     text-align: center;
     padding: 15px;
     top: 0;
@@ -73,31 +90,31 @@ html {
     padding: 10px;
     text-decoration: none;
     margin-bottom: 10px;
-    background-color: #beb4ff ;
-    color: #000000;
-    box-shadow: 0 1px rgba(0, 0, 0, 0.12), 0, 1px 2px, rgba(0, 0, 0, 0.24);
+    background-color: var(--accent1B);
+    color: var(--dark0);
+    box-shadow: 0 1px var(--boxShadowLight), 0, 1px 2px, var(--boxShadowDark);
 }
 
 .navbar li a {
     text-decoration: none;
-    color: #000000;
+    color: var(--dark0);
 }
 
 .navbar li.active a {
-    color: #144614;
+    color: var(--dark1);
 }
 
 .navbar .active {
-    background-color: #d1dcff;
+    background-color: var(--accent2A);
     font-weight:  bold;
 }
 
 .navbar .active:hover {
-    background-color: #beb4ff;
+    background-color: var(--accent1B);
 }
 
 .navbar li:hover{
-    background-color: #d2c8ff;
+    background-color: var(--accent1A);
 }
 /************************************/
 
@@ -115,22 +132,22 @@ html {
 .menu li {
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #d1dcff;
+    background-color: var(--accent1A);
     color: #000000;
-    box-shadow: 0 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px var(--boxShadowLight), 0 1px 2px var(--boxShadowDark);
 }
 
 .menu li a {
     text-decoration: none;
-    color: #000000;
+    color: var(--dark0);
 }
 
 .menu li.active {
-    background-color: #a7bcff;
+    background-color: var(--accent2B);
 }
 
 .menu li.active a {
-    color: #144614;
+    color: var(--dark1);
 }
 
 .menu li:hover{
@@ -138,7 +155,7 @@ html {
 }
 
 .menu li.active:hover{
-    background-color: #d1dcff;
+    background-color: var(--accent2B);
 }
 
 .menu li a {
@@ -149,7 +166,7 @@ html {
 /************************************/
 /* center (body) */
 div.construction {
-    background-color: #000000;
+    background-color: var(--dark0);
     font-size: 5rem;
     text-align: center;
     color: red;
@@ -160,7 +177,7 @@ div.construction {
 }
 
 p.construction {
-    background-color: #000000;
+    background-color: var(--dark0);
     font-size: 1rem;
     text-align: center;
     color: red;
@@ -175,12 +192,12 @@ p.construction {
 /* aside */
 .aside {
     margin-bottom: 3rem;
-    background-color: #a7bcff;
+    background-color: var(--accent2B);
     padding: 15px;
-    color: #000000;
+    color: var(--dark0);
     font-size: 14px;
     border-radius: 10%;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px var(--boxShadowLight), 0 1px 2px var(--boxShadowDark);
 }
 
 .aside h2 {
@@ -195,10 +212,10 @@ p.construction {
     height: 10rem;
 }
 .footer {
-    background-color: #beb4ff;
+    background-color: var(--accent1B);
     font-size: 0.8rem;
     padding: 15px;
-    color: #000000;
+    color: var(--dark0);
     bottom: 0;
     position: relative;
     height: 15%;
