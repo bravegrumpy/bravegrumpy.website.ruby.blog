@@ -56,6 +56,7 @@
 /* Generic styling */
 html {
     font-family: 'Lucida Sans', sans-serif;
+    background-color: var(--light0);
 }
 /************************************/
 
