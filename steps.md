@@ -19,3 +19,6 @@
     1. Again, check to ensure that you have rails installed with `rails --version`
 1. Start doing stuff that seems oddly similar to django things, but with ruby as the language. 
     - Ruby is alsy a DRY language. It also use the MVC model. So ultimately it should feel suuuuuper similar to Django. 
+
+## Git source control
+There is this thing called a submodule. This allows you to ehrm.... save your work in a different repo.
